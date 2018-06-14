@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dp32"
+        android:padding="@dimen/dp4"
+        android:background="@drawable/border_round">
+        <ImageView
+            android:id="@+id/commerceimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_commerce_active"
+            android:padding="@dimen/dp8"
+            android:layout_margin="@dimen/dp20"
+            android:background="@drawable/rounded_large"/>
+        <TextView
+            android:id="@+id/commercetext"
+            android:layout_width="wrap_content"
+            android:layout_height="@android:dimen/notification_large_icon_height"
+            android:text="m-Commerce"
+            android:textSize="20sp"
+            android:textColor="#002866"
+            android:textStyle="bold"
+            android:padding="@dimen/dp8"
+            android:layout_marginTop="@dimen/dp20"
+            android:layout_toRightOf="@+id/commerceimage"
+            android:gravity="center_vertical"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/commerceimage"
+            android:padding="@dimen/dp8"
+            android:background="@drawable/border_bottom_round">
+            <ListView
+                android:id="@+id/commercelistview"
+                android:padding="@dimen/dp8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">TA Mobile Lanjutan</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">KULINER</string>
+    <string name="slide_1_desc">Rasakan Berbagai Kuliner yang Akan Memanjakan Lidahmu</string>
+
+    <string name="slide_2_title">HOTEL</string>
+    <string name="slide_2_desc">Temukan Hotel yang Nyaman Untuk Istirahat Perjalananmu</string>
+
+    <string name="slide_3_title">WISATA</string>
+    <string name="slide_3_desc">Destinasi Menarik Menantimu. Segera Pilih Destinasi Wisatamu</string>
+
+    <string name="slide_4_title">GUIDE</string>
+    <string name="slide_4_desc">Cari Guide Untuk Menemani Perjalananmu Agar  semakin asyik </string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_transfer">Transfer</string>
+    <string name="menu_payment">Payment</string>
+    <string name="menu_commerce">Commerce</string>
+    <string name="menu_admin">Admin</string>
+
+
+    <!-- Project lama -->
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">PIN</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_password">Enter PIN</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="success_message_transfer">Transfer Successful</string>
+    <string name="success_message_pin">PIN Change Successful</string>
+    <string name="success_message_editprofile">Edit Profile Successful</string>
+    <string name="text_home">Back to Home</string>
+    <string name="text_pulsa">Kembali ke Paket Pulsa</string>
+    <string name="error_username_not_exists">Username is not Exists</string>
+    <string name="error_norek_not_exists">Account Number is not Exists</string>
+    <string name="error_valid_username_pin">Wrong Username or PIN</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_hp">No Hp</string>
+
+    <string name="error_message_nohp">Enter No Hp</string>
+    <string name="error_message_newpin_oldpin">New PIN must different from Old PIN</string>
+    <string name="error_message_newpin_confirmpin">New PIN must same with Confirm PIN</string>
+    <string name="error_message_oldpinincorrect">Old PIN was incorrect</string>
+    <string name="error_message_passwordkosong">Enter PIN</string>
+    <string name="error_message_oldpasswordkosong">Enter Old PIN</string>
+    <string name="error_message_newpasswordkosong">Enter New PIN</string>
+    <string name="error_message_digitpin">PIN only 6 digits</string>
+    <string name="hint_norek">Account Number</string>
+    <string name="error_message_username">Enter Username</string>
+    <string name="error_message_norek">Enter Nomor Rekening</string>
+    <string name="error_valid_message_norektujuan">Enter No Rekening Tujuan yang valid</string>
+    <string name="error_valid_message_othernorektujuan">Dilarang menginput No Rek Sendiri</string>
+    <string name="error_message_norektujuan">Enter No Rekening Tujuan</string>
+    <string name="error_message_jlhdana">Enter Jumlah Dana</string>
+    <string name="error_message_jlhdanamin">Enter Jumlah Dana Minimal 50000</string>
+    <string name="error_message_jlhdanaminkelipatan">Enter Jumlah Dana Minimal Berkelipatan 50000</string>
+    <string name="error_message_saldokurang">Saldo Anda kurang untuk melakukan transfer</string>
+    <string name="error_message_jlhdanamax">Jumlah Dana Transfer hanya 100juta per hari</string>
+
+    <string name="hint_norektujuan">No Rekening Tujuan</string>
+    <string name="hint_nohptujuan">No Hp Tujuan</string>
+    <string name="hint_jlhdana">Jumlah Dana</string>
+    <string name="hint_jlhpulsa">Jumlah Pulsa</string>
+    <string name="hint_oldpin">Old PIN</string>
+    <string name="hint_newpin">New PIN</string>
+    <string name="text_transfer">Transfer</string>
+    <string name="text_submit">Submit</string>
+    <string name="text_save">Save</string>
+    <!-- Spinner -->
+    <string-array name="android_layout_arrays">
+        <item>Pilih Bulan</item>
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>May</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+    <!-- untuk UserConfig -->
+    <string name="user_config">com.example.user_config</string>
+    <string name="user_norekening">com.example.user_norekening</string>
+    <string name="user_nama">com.example.user_nama</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginTop="@dimen/dp4"
+        android:id="@+id/actionbar.back"
+        android:src="@drawable/ic_arrow_back"
+        android:layout_width="24dp"
+        android:layout_height="28dp"
+        android:layout_marginRight="@dimen/dp8"/>
+    <ImageView
+        android:layout_marginTop="@dimen/dp4"
+        android:id="@+id/actionbar.title"
+        android:layout_toRightOf="@+id/actionbar.back"
+        android:src="@drawable/titleapp"
+        android:layout_width="110dp"
+        android:layout_height="28dp" />
+    <ImageView
+        android:layout_marginTop="@dimen/dp4"
+        android:id="@+id/actionbar.notif"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginRight="@dimen/dp32"
+        android:layout_toLeftOf="@+id/actionbar.logout"/>
+    <ImageView
+        android:layout_marginTop="@dimen/dp4"
+        android:id="@+id/actionbar.logout"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@android:dimen/notification_large_icon_height" android:width="@android:dimen/notification_large_icon_height"/>
+            <solid android:color="#002866" />
+            <corners
+                android:bottomLeftRadius="@android:dimen/notification_large_icon_height"
+                android:bottomRightRadius="@android:dimen/notification_large_icon_height"
+                android:topLeftRadius="@android:dimen/notification_large_icon_height"
+                android:topRightRadius="@android:dimen/notification_large_icon_height"/>
+        </shape>
+    </item>
+</selector>

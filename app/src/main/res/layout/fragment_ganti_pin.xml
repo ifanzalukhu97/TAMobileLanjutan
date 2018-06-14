@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp4">
+    <EditText
+        android:id="@+id/pinlama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PIN lama"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_alignParentTop="true" />
+    <EditText
+        android:id="@+id/pinbaru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PIN baru"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_below="@+id/pinlama"
+        android:gravity="center_vertical"/>
+    <EditText
+        android:id="@+id/confirmpinbaru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm PIN baru"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_below="@+id/pinbaru"
+        android:gravity="center_vertical"/>
+    <Button
+        android:id="@+id/gantipin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm PIN baru"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:padding="@dimen/dp8"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_below="@+id/confirmpinbaru"
+        android:gravity="center_vertical"/>
+</RelativeLayout>
